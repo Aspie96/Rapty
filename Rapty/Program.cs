@@ -85,7 +85,7 @@ namespace Rapty
                 if (loggedEvents.Count > 0)
                 {
                     string content = StringifyEvents();
-                    var values = new Dictionary<string, string>
+                    Dictionary<string, string> values = new Dictionary<string, string>
                     {
                         { "serial", serial },
                         { "user", user },
@@ -94,7 +94,7 @@ namespace Rapty
                         { "random", random }
                     };
                     loggedEvents = new List<Event>();
-                    var response = client.PostAsync(host, new FormUrlEncodedContent(values));
+                    client.PostAsync(host, new FormUrlEncodedContent(values));
                 }
             }
         }

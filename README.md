@@ -1,6 +1,6 @@
 Rapty is a keylogger PoC for Windows.
 
-Today it works and it's hard to detect and today is *2 March 2017*.
+Today it works and it's hard to detect and today is *14 June 2017*.
 
 # The article
 You may read my article about it visiting the following sources:
@@ -132,7 +132,7 @@ Of course, it's no secret and no joke that this is a big security problem.
 
 Creating a perfectly working keylogger should not be so easy and avoid being detected by antivirus software should be even harder.
 
-Checking on [VirusTotal](https://www.virustotal.com/it/file/be8019f516984972b66ed4b9cdf17f29ed923934cb8bdc51f11e80d11ffa9f8b/analysis/1493754885/), I found no antivirus able to detect this trojan.
+Checking on [VirusTotal](https://www.virustotal.com/it/file/62860daecb8b0978c9435aefc91c2e00403dd58ce8290cce01927169638dbeba/analysis/1497440390/), I found no antivirus able to detect this trojan.
 
 The famous antiviruses are very much included in the list. Please, check if your antivirus is listed in the linked page. It's very, very likely.
 
@@ -144,7 +144,7 @@ That is pretty scary, isn't it?
 
 
 
-What to do?
+## What to do?
 
 So, what should you do?
 
@@ -153,11 +153,11 @@ Four things, actually:
 - Share this project and what I wrote about it. Make sure the problem is known, so people can pay attention to it and it will be solved earlier.
 - Send a sample of this program to antivirus companies.
 - Let Microsoft know the problem: the whole reason this even works are Microsoft libraries that basically let everyone create a keylogger for Windows computers. That should simply not be the case.
-- Visit [this page](https://www.virustotal.com/it/file/be8019f516984972b66ed4b9cdf17f29ed923934cb8bdc51f11e80d11ffa9f8b/analysis/1493754885/) and downvote it (not really sure this one helps).
+- Visit [this page](https://www.virustotal.com/it/file/62860daecb8b0978c9435aefc91c2e00403dd58ce8290cce01927169638dbeba/analysis/1497440390/) and downvote it (not really sure this one helps).
 
 What you should **not** do is pretty obvious.
 
-You shall not use Rapty for evil or illegal
+You shall not use Rapty for evil or illegal.
 
 ## Windows on-screen keyboard
 Who's scared of keyloggers?
